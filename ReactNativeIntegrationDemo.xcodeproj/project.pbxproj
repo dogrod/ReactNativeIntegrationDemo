@@ -15,6 +15,7 @@
 		1F9F8CFE1FBEA7130082AAA0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9F8CFD1FBEA7130082AAA0 /* main.m */; };
 		1F9F8D081FBEA7130082AAA0 /* ReactNativeIntegrationDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9F8D071FBEA7130082AAA0 /* ReactNativeIntegrationDemoTests.m */; };
 		1F9F8D131FBEA7130082AAA0 /* ReactNativeIntegrationDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9F8D121FBEA7130082AAA0 /* ReactNativeIntegrationDemoUITests.m */; };
+		1F9F8D211FBEA7AD0082AAA0 /* ReactNativeComponents in Resources */ = {isa = PBXBuildFile; fileRef = 1F9F8D201FBEA7AD0082AAA0 /* ReactNativeComponents */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		1F9F8D0E1FBEA7130082AAA0 /* ReactNativeIntegrationDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactNativeIntegrationDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F9F8D121FBEA7130082AAA0 /* ReactNativeIntegrationDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactNativeIntegrationDemoUITests.m; sourceTree = "<group>"; };
 		1F9F8D141FBEA7130082AAA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F9F8D201FBEA7AD0082AAA0 /* ReactNativeComponents */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ReactNativeComponents; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		1F9F8CE21FBEA7130082AAA0 = {
 			isa = PBXGroup;
 			children = (
+				1F9F8D201FBEA7AD0082AAA0 /* ReactNativeComponents */,
 				1F9F8CED1FBEA7130082AAA0 /* ReactNativeIntegrationDemo */,
 				1F9F8D061FBEA7130082AAA0 /* ReactNativeIntegrationDemoTests */,
 				1F9F8D111FBEA7130082AAA0 /* ReactNativeIntegrationDemoUITests */,
@@ -239,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F9F8CFB1FBEA7130082AAA0 /* LaunchScreen.storyboard in Resources */,
+				1F9F8D211FBEA7AD0082AAA0 /* ReactNativeComponents in Resources */,
 				1F9F8CF81FBEA7130082AAA0 /* Assets.xcassets in Resources */,
 				1F9F8CF61FBEA7130082AAA0 /* Main.storyboard in Resources */,
 			);
